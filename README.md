@@ -14,3 +14,7 @@ ssm简单增删改查与pagehelper分页
 	+ 确认删除的提示框
 	+ 姓名与年龄不能为空
 	+ 上下页在首页或者尾页的情况下点击无效
+4.	test类中
+	+ junit测试@RunWith(SpringJUnit4ClassRunner.class)
+	+ 注入mapper@ContextConfiguration("classpath:applicationContext.xml")
+	+ test方法@org.junit.Test
