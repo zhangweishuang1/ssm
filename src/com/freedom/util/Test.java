@@ -15,7 +15,7 @@ public class Test {
 
     @org.junit.Test
     public void add() {
-        for (int i = 1; i < 11; i++) {
+        for (int i = 1; i < 101; i++) {
             User user = new User();
             user.setName("测试" + i);
             user.setAge(i);

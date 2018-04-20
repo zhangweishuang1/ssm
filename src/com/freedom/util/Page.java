@@ -2,7 +2,7 @@ package com.freedom.util;
 
 public class Page {
     private int start;
-    private int count;
+    private int count=5;
     private int total;
 
     public boolean isHasPrevious() {
